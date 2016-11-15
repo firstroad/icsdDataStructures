@@ -207,7 +207,7 @@ node * appendLists(node * head1, node * head2) {
         head1=head1->getNext();
         temp[i]=head1->getNum();
     }
-    for(int i=head1length;i<length;i++) {
+    for(int i=head2length;i<length;i++) {
         head2=head2->getNext();
         temp[i]=head2->getNum();
     }
