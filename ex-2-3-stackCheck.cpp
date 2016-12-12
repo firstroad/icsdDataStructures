@@ -40,9 +40,9 @@ int main() {
         }
     }
     if(front==rear)
-        cout<<"It is a stack"<<endl;
+        cout<<"It's series of arrivals and departures"<<endl;
     else
-        cout << "It is not a stack"<<endl;
+        cout << "It's not series of arrivals and departures"<<endl;
 
     return 0;
 }
